@@ -1,5 +1,5 @@
 import { Eye, EyeOff } from "lucide-react";
-import { type FormEvent, useId, useState } from "react";
+import { useId, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -46,7 +46,7 @@ export function CreateAccount({ onContinue, className }: CreateAccountProps) {
 
 	const canContinue = isFormComplete(form);
 
-	function handleSubmit(event: FormEvent<HTMLFormElement>) {
+	function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
 		if (!canContinue) return;
 		onContinue?.({
