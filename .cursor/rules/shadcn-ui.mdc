@@ -1,0 +1,27 @@
+---
+description: Use shadcn/ui components in investor-onboarding (install before hand-rolling UI)
+globs: apps/investor-onboarding/**/*
+alwaysApply: false
+---
+
+# shadcn/ui (investor-onboarding)
+
+This app has shadcn configured (`apps/investor-onboarding/components.json`). Prefer [shadcn components](https://ui.shadcn.com/docs/components) over custom-styled native elements for forms, inputs, dialogs, etc.
+
+## Add components
+
+From `apps/investor-onboarding`:
+
+```bash
+pnpm exec shadcn add <component> --yes
+```
+
+Examples: `input`, `checkbox`, `label`, `field`, `select`, `card`.
+
+## Use components
+
+Import from `@/components/ui/<name>` (e.g. `Button`, `Input`, `Checkbox`, `Label`). Check `src/components/ui/` for what is already installed before adding duplicates.
+
+## When to deviate
+
+Use plain HTML or one-off Tailwind only when no shadcn primitive fits and adding a component would be heavier than the use case.
