@@ -4,6 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm --filter investor-onboarding dev",
+    "build": "pnpm --filter investor-onboarding build",
+    "preview": "pnpm --filter investor-onboarding preview",
+    "generate-routes": "pnpm --filter investor-onboarding generate-routes",
+    "lint": "pnpm --filter investor-onboarding lint",
+    "format": "pnpm --filter investor-onboarding format",
+    "check": "pnpm --filter investor-onboarding check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -2,12 +2,20 @@ Welcome to your new TanStack Start app!
 
 # Getting Started
 
-To run this application:
+This app lives in the **Willow Wealth** pnpm monorepo. From the **repository root** (`main/`):
 
 ```bash
 pnpm install
 pnpm dev
 ```
+
+Or from this directory:
+
+```bash
+pnpm dev
+```
+
+(Dependencies are hoisted from the root workspace; use `pnpm install` at the repo root after cloning.)
 
 # Building For Production
 

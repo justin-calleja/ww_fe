@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Package managers
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and output
+dist/
+dist-ssr/
+build/
+out/
+.output/
+.nitro/
+.vinxi/
+.tanstack/
+
+# Vite / tooling cache
+.vite/
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Test / coverage
+coverage/
+*.lcov
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor (keep shared .vscode if you commit it)
+.idea/
+*.swp
+*.swo
+
+# Misc / local scratch
+.turbo/
+.wrangler/
+.cache/
+.tmp/
+.temp/
+__unconfig*

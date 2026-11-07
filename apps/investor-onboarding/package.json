@@ -40,5 +40,10 @@
       "esbuild",
       "lightningcss"
     ]
+  },
+  "intent": {
+    "skills": [
+      "*"
+    ]
   }
 }
