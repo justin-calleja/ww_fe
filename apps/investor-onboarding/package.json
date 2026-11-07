@@ -1,5 +1,5 @@
 {
-  "name": "investor-onboarding",
+  "name": "@ww/investor-onboarding",
   "private": true,
   "type": "module",
   "imports": {
